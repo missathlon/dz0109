@@ -10,12 +10,6 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Vvedite chislo b = ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-while (a == b)
-{
-    Console.WriteLine("Chisla ravny ");
-    a = Convert.ToInt32(Console.ReadLine());
-}
-if
-    (a > b) Console.WriteLine("a > b");
-else
-    Console.WriteLine("b > a");
+if (a == b) Console.WriteLine("Chisla ravny ");
+if (a > b) Console.WriteLine("a > b");
+if (a < b) Console.WriteLine("a < b");
