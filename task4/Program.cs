@@ -4,13 +4,13 @@
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
-Console.WriteLine("Vvedite chislo a = ");
+Console.Write("Vvedite chislo a = ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Vvedite chislo b = ");
+Console.Write("Vvedite chislo b = ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Vvedite chislo c = ");
+Console.Write("Vvedite chislo c = ");
 int c = Convert.ToInt32(Console.ReadLine());
 
 int max = a;
@@ -19,5 +19,5 @@ if (a > max) max = a;
 if (b > max) max = b;
 if (c > max) max = c;
 
-Console.Write ("max = ");
+Console.Write("max = ");
 Console.WriteLine(max);

@@ -4,12 +4,12 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Vvedite chislo a = ");
+Console.Write("Vvedite chislo a = ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Vvedite chislo b = ");
+Console.Write("Vvedite chislo b = ");
 int b = Convert.ToInt32(Console.ReadLine());
 
 if (a == b) Console.WriteLine("Chisla ravny ");
-if (a > b) Console.WriteLine("a > b");
-if (a < b) Console.WriteLine("a < b");
+if (a > b) Console.WriteLine(a);
+if (a < b) Console.WriteLine(b);
